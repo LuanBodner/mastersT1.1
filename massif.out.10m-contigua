@@ -1,0 +1,549 @@
+desc: (none)
+cmd: ./main_contigua
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2384296
+mem_heap_B=5365776
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=4603923
+mem_heap_B=10731536
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=6882385
+mem_heap_B=32194576
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=9043070
+mem_heap_B=21463056
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=13599932
+mem_heap_B=64389136
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=17921257
+mem_heap_B=64389136
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 64389136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 64389120 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 64389120 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 64389120 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 64389120 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=17921257
+mem_heap_B=42926096
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=27034919
+mem_heap_B=128778256
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=35677524
+mem_heap_B=128778256
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 128778256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 128778240 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 128778240 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 128778240 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 128778240 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=35677524
+mem_heap_B=85852176
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=53904786
+mem_heap_B=257556496
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=71189951
+mem_heap_B=257556496
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 257556496 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 257556480 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 257556480 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 257556480 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 257556480 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=71189951
+mem_heap_B=171704336
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=107644413
+mem_heap_B=515112976
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=142214698
+mem_heap_B=515112976
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 515112976 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 515112960 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 515112960 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 515112960 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 515112960 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=142214698
+mem_heap_B=343408656
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=215123560
+mem_heap_B=1030225936
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=284264085
+mem_heap_B=1030225936
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1030225936 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1030225920 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 1030225920 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 1030225920 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 1030225920 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=284264085
+mem_heap_B=686817296
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=430081747
+mem_heap_B=2060451856
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=568362752
+mem_heap_B=2060451856
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2060451856 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2060451840 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 2060451840 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 2060451840 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 2060451840 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=568362752
+mem_heap_B=1373634576
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=859998014
+mem_heap_B=4120903696
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1136559979
+mem_heap_B=4120903696
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 4120903696 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4120903680 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 4120903680 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 4120903680 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 4120903680 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=1136559979
+mem_heap_B=2747269136
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1719830441
+mem_heap_B=8241807376
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2272954326
+mem_heap_B=8241807376
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=peak
+n2: 8241807376 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8241807360 0x1097A5: verifica_aumenta_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 8241807360 0x109A91: pilha_empilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 8241807360 0x1096D0: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 8241807360 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=2272954326
+mem_heap_B=5494538256
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=4230509157
+mem_heap_B=8241807376
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=4783633042
+mem_heap_B=2747269136
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=5279085271
+mem_heap_B=4120903696
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=5555647236
+mem_heap_B=1373634576
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=5803373385
+mem_heap_B=2060451856
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=5941654390
+mem_heap_B=686817296
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=6065517499
+mem_heap_B=1030225936
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=6134658024
+mem_heap_B=343408656
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=6196589613
+mem_heap_B=515112976
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 515112976 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 515112960 0x1098DA: verifica_reduz_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 515112960 0x109BDF: pilha_desempilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 515112960 0x10970F: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 515112960 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=6231159898
+mem_heap_B=171704336
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=6262125727
+mem_heap_B=257556496
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=6279410892
+mem_heap_B=85852176
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=6294893841
+mem_heap_B=128778256
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=6303536446
+mem_heap_B=42926096
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=6311277955
+mem_heap_B=64389136
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=6315599280
+mem_heap_B=21463056
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=6319470069
+mem_heap_B=32194576
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=6321630754
+mem_heap_B=10731536
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=6323566183
+mem_heap_B=16097296
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=detailed
+n2: 16097296 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16097280 0x1098DA: verifica_reduz_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 16097280 0x109BDF: pilha_desempilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 16097280 0x10970F: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 16097280 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=6326154502
+mem_heap_B=2682896
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=6327639466
+mem_heap_B=41936
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=6327647095
+mem_heap_B=62896
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=6327651360
+mem_heap_B=20976
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=6327655209
+mem_heap_B=31456
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=6327657364
+mem_heap_B=10496
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=6327659323
+mem_heap_B=15736
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n2: 15736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15720 0x1098DA: verifica_reduz_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+  n1: 15720 0x109BDF: pilha_desempilhar_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+   n1: 15720 0x10970F: teste_empilhar_10m_contigua (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+    n0: 15720 0x10975A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_contigua)
+ n0: 16 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=6327660423
+mem_heap_B=5256
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=6327661437
+mem_heap_B=7876
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=6327662009
+mem_heap_B=2636
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=6327663041
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=6327663073
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

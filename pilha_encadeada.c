@@ -1,8 +1,5 @@
-#include "pilha.h"
+#include "pilha_encadeada.h"
 
-/**************************************
- * DADOS
- **************************************/
 typedef struct no {
     TipoElemento dado;
     struct no* prox;
@@ -13,11 +10,7 @@ struct _pilha {
     int qtdeElementos;
 };
 
-/**************************************
- * FUNÇÕES AUXILIARES
- **************************************/
-
-bool pilha_ehValida(Pilha* p) { return (p != NULL ? true : false); }
+bool pilha_ehValida_encadeada(Pilha* p) { return (p != NULL ? true : false); }
 
 No* criar_no(TipoElemento elemento, No* proximoNo) {
     No* no = (No*)malloc(sizeof(No));
@@ -26,19 +19,15 @@ No* criar_no(TipoElemento elemento, No* proximoNo) {
     return no;
 }
 
-/**************************************
- * IMPLEMENTAÇÃO
- **************************************/
-
-Pilha* pilha_criar() {
+Pilha* pilha_criar_encadeada() {
     Pilha* p = (Pilha*)malloc(sizeof(Pilha));
     p->topo = NULL;
     p->qtdeElementos = 0;
     return p;
 }
 
-void pilha_destruir(Pilha* p) {
-    if (!pilha_ehValida(p)) return;
+void pilha_destruir_encadeada(Pilha* p) {
+    if (!pilha_ehValida_encadeada(p)) return;
 
     No* aux;
     while (p->topo != NULL) {
@@ -50,8 +39,8 @@ void pilha_destruir(Pilha* p) {
     free(p);
 }
 
-bool pilha_empilhar(Pilha* p, TipoElemento elemento) {
-    if (!pilha_ehValida(p)) return false;
+bool pilha_empilhar_encadeada(Pilha* p, TipoElemento elemento) {
+    if (!pilha_ehValida_encadeada(p)) return false;
 
     No* novo = criar_no(elemento, NULL);
     novo->prox = p->topo;
@@ -60,9 +49,9 @@ bool pilha_empilhar(Pilha* p, TipoElemento elemento) {
     return true;
 }
 
-bool pilha_desempilhar(Pilha* p, TipoElemento* saida) {  // estratégia do scanf
-    if (!pilha_ehValida(p)) return false;
-    if (pilha_vazia(p)) return false;
+bool pilha_desempilhar_encadeada(Pilha* p, TipoElemento* saida) {
+    if (!pilha_ehValida_encadeada(p)) return false;
+    if (pilha_vazia_encadeada(p)) return false;
 
     No* noRemovido = p->topo;
     p->topo = p->topo->prox;
@@ -74,18 +63,20 @@ bool pilha_desempilhar(Pilha* p, TipoElemento* saida) {  // estratégia do scanf
     return true;
 }
 
-bool pilha_topo(Pilha* p, TipoElemento* saida) {  // estratégia do scanf
-    if (!pilha_ehValida(p)) return false;
-    if (pilha_vazia(p)) return false;
+bool pilha_topo_encadeada(Pilha* p, TipoElemento* saida) {
+    if (!pilha_ehValida_encadeada(p)) return false;
+    if (pilha_vazia_encadeada(p)) return false;
 
     *saida = p->topo->dado;
     return true;
 }
 
-bool pilha_vazia(Pilha* p) { return (p->qtdeElementos == 0 ? true : false); }
+bool pilha_vazia_encadeada(Pilha* p) {
+    return (p->qtdeElementos == 0 ? true : false);
+}
 
 void pilha_imprimir(Pilha* p) {
-    if (!pilha_ehValida(p)) return;
+    if (!pilha_ehValida_encadeada(p)) return;
 
     printf("Encadeada");
     printf("[");
@@ -98,4 +89,4 @@ void pilha_imprimir(Pilha* p) {
     printf("]");
 }
 
-int pilha_tamanho(Pilha* p) { return p->qtdeElementos; }
+int pilha_tamanho_encadeada(Pilha* p) { return p->qtdeElementos; }

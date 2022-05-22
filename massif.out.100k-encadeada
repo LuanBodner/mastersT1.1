@@ -1,0 +1,751 @@
+desc: (none)
+cmd: ./main_encadeada
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=680968
+mem_heap_B=856544
+mem_heap_extra_B=25576
+mem_stacks_B=0
+heap_tree=detailed
+n2: 856544 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 856528 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 856528 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 856528 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 856528 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=1344520
+mem_heap_B=1954272
+mem_heap_extra_B=58344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2236168
+mem_heap_B=3429344
+mem_heap_extra_B=102376
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3429344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3429328 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 3429328 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 3429328 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 3429328 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=2899720
+mem_heap_B=4527072
+mem_heap_extra_B=135144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=3563272
+mem_heap_B=5624800
+mem_heap_extra_B=167912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=4226824
+mem_heap_B=6722528
+mem_heap_extra_B=200680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=4890376
+mem_heap_B=7820256
+mem_heap_extra_B=233448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=5553928
+mem_heap_B=8917984
+mem_heap_extra_B=266216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=6217480
+mem_heap_B=10015712
+mem_heap_extra_B=298984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=6881032
+mem_heap_B=11113440
+mem_heap_extra_B=331752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=7544584
+mem_heap_B=12211168
+mem_heap_extra_B=364520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=8456968
+mem_heap_B=13720544
+mem_heap_extra_B=409576
+mem_stacks_B=0
+heap_tree=detailed
+n2: 13720544 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 13720528 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 13720528 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 13720528 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 13720528 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=9120520
+mem_heap_B=14818272
+mem_heap_extra_B=442344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=9784072
+mem_heap_B=15916000
+mem_heap_extra_B=475112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=10447624
+mem_heap_B=17013728
+mem_heap_extra_B=507880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=11111176
+mem_heap_B=18111456
+mem_heap_extra_B=540648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=11774728
+mem_heap_B=19209184
+mem_heap_extra_B=573416
+mem_stacks_B=0
+heap_tree=detailed
+n2: 19209184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 19209168 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 19209168 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 19209168 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 19209168 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=12438280
+mem_heap_B=20306912
+mem_heap_extra_B=606184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=13101832
+mem_heap_B=21404640
+mem_heap_extra_B=638952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=13765384
+mem_heap_B=22502368
+mem_heap_extra_B=671720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=14428936
+mem_heap_B=23600096
+mem_heap_extra_B=704488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=15092488
+mem_heap_B=24697824
+mem_heap_extra_B=737256
+mem_stacks_B=0
+heap_tree=detailed
+n2: 24697824 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24697808 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 24697808 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 24697808 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 24697808 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=15756040
+mem_heap_B=25795552
+mem_heap_extra_B=770024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=16419592
+mem_heap_B=26893280
+mem_heap_extra_B=802792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=17335864
+mem_heap_B=28409088
+mem_heap_extra_B=848040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=17920360
+mem_heap_B=29376032
+mem_heap_extra_B=876904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=18504856
+mem_heap_B=30342976
+mem_heap_extra_B=905768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=19089352
+mem_heap_B=31309920
+mem_heap_extra_B=934632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=19673848
+mem_heap_B=32276864
+mem_heap_extra_B=963496
+mem_stacks_B=0
+heap_tree=detailed
+n2: 32276864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32276848 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 32276848 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 32276848 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 32276848 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=20258344
+mem_heap_B=33243808
+mem_heap_extra_B=992360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=20842840
+mem_heap_B=34210752
+mem_heap_extra_B=1021224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=21427336
+mem_heap_B=35177696
+mem_heap_extra_B=1050088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=22011832
+mem_heap_B=36144640
+mem_heap_extra_B=1078952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=22596328
+mem_heap_B=37111584
+mem_heap_extra_B=1107816
+mem_stacks_B=0
+heap_tree=detailed
+n2: 37111584 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 37111568 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 37111568 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 37111568 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 37111568 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=23180824
+mem_heap_B=38078528
+mem_heap_extra_B=1136680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=23765320
+mem_heap_B=39045472
+mem_heap_extra_B=1165544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=24349816
+mem_heap_B=40012416
+mem_heap_extra_B=1194408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=24934312
+mem_heap_B=40979360
+mem_heap_extra_B=1223272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=25518808
+mem_heap_B=41946304
+mem_heap_extra_B=1252136
+mem_stacks_B=0
+heap_tree=detailed
+n2: 41946304 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 41946288 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 41946288 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 41946288 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 41946288 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=26103304
+mem_heap_B=42913248
+mem_heap_extra_B=1281000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=26687800
+mem_heap_B=43880192
+mem_heap_extra_B=1309864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=27272296
+mem_heap_B=44847136
+mem_heap_extra_B=1338728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=27856792
+mem_heap_B=45814080
+mem_heap_extra_B=1367592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=28441288
+mem_heap_B=46781024
+mem_heap_extra_B=1396456
+mem_stacks_B=0
+heap_tree=detailed
+n2: 46781024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 46781008 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 46781008 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 46781008 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 46781008 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=29025784
+mem_heap_B=47747968
+mem_heap_extra_B=1425320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=29610280
+mem_heap_B=48714912
+mem_heap_extra_B=1454184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=30194776
+mem_heap_B=49681856
+mem_heap_extra_B=1483048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=30779272
+mem_heap_B=50648800
+mem_heap_extra_B=1511912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=31363768
+mem_heap_B=51615744
+mem_heap_extra_B=1540776
+mem_stacks_B=0
+heap_tree=detailed
+n2: 51615744 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 51615728 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 51615728 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 51615728 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 51615728 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=31948264
+mem_heap_B=52582688
+mem_heap_extra_B=1569640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=32532760
+mem_heap_B=53549632
+mem_heap_extra_B=1598504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=32563505
+mem_heap_B=53600016
+mem_heap_extra_B=1600008
+mem_stacks_B=0
+heap_tree=peak
+n2: 53600016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 53600000 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 53600000 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 53600000 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 53600000 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=33148135
+mem_heap_B=51868200
+mem_heap_extra_B=1548312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=33732765
+mem_heap_B=50136920
+mem_heap_extra_B=1496632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=34317395
+mem_heap_B=48405640
+mem_heap_extra_B=1444952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=34902025
+mem_heap_B=46674360
+mem_heap_extra_B=1393272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=35486655
+mem_heap_B=44943080
+mem_heap_extra_B=1341592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=36071285
+mem_heap_B=43211800
+mem_heap_extra_B=1289912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=36655915
+mem_heap_B=41480520
+mem_heap_extra_B=1238232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=37240545
+mem_heap_B=39749240
+mem_heap_extra_B=1186552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=37825175
+mem_heap_B=38017960
+mem_heap_extra_B=1134872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=38409805
+mem_heap_B=36286680
+mem_heap_extra_B=1083192
+mem_stacks_B=0
+heap_tree=detailed
+n2: 36286680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 36286664 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 36286664 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 36286664 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 36286664 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=38994435
+mem_heap_B=34555400
+mem_heap_extra_B=1031512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=39579065
+mem_heap_B=32824120
+mem_heap_extra_B=979832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=40163695
+mem_heap_B=31092840
+mem_heap_extra_B=928152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=40748325
+mem_heap_B=29361560
+mem_heap_extra_B=876472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=41332955
+mem_heap_B=27630280
+mem_heap_extra_B=824792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=41917585
+mem_heap_B=25899000
+mem_heap_extra_B=773112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=42502215
+mem_heap_B=24167720
+mem_heap_extra_B=721432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=43086845
+mem_heap_B=22436440
+mem_heap_extra_B=669752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=43671475
+mem_heap_B=20705160
+mem_heap_extra_B=618072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=44256105
+mem_heap_B=18973880
+mem_heap_extra_B=566392
+mem_stacks_B=0
+heap_tree=detailed
+n2: 18973880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 18973864 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 18973864 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 18973864 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 18973864 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=73
+#-----------
+time=44840735
+mem_heap_B=17242600
+mem_heap_extra_B=514712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=45425365
+mem_heap_B=15511320
+mem_heap_extra_B=463032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=46009995
+mem_heap_B=13780040
+mem_heap_extra_B=411352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=46594625
+mem_heap_B=12048760
+mem_heap_extra_B=359672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=47179255
+mem_heap_B=10317480
+mem_heap_extra_B=307992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=47763885
+mem_heap_B=8586200
+mem_heap_extra_B=256312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=48348515
+mem_heap_B=6854920
+mem_heap_extra_B=204632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=48933145
+mem_heap_B=5123640
+mem_heap_extra_B=152952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=49517775
+mem_heap_B=3392360
+mem_heap_extra_B=101272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=50102405
+mem_heap_B=1661080
+mem_heap_extra_B=49592
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1661080 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1661064 0x109771: criar_no (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+  n1: 1661064 0x1098AE: pilha_empilhar_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+   n1: 1661064 0x109400: teste_empilhar_100k_encadeada (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+    n0: 1661064 0x10973A: main (in /home/luan/Documents/Masters/T1/Chained stack/main_encadeada)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
